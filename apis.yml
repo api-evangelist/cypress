@@ -1,7 +1,32 @@
 aid: cypress
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cypress.png
 name: Cypress
-description: Cypress is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cypress Semiconductor Corporation was a San Jose, California semiconductor
+  company founded in 1982, and an early Mayfield venture investment. It designed
+  and manufactured mixed-signal, embedded, and connectivity silicon — most
+  notably the PSoC programmable system-on-chip microcontrollers, WICED Wi-Fi and
+  Bluetooth wireless combos, USB controllers (EZ-USB), NOR flash and SRAM
+  memory, and automotive Traveo microcontrollers — supported by the ModusToolbox
+  and PSoC Creator developer tooling and the Cypress Developer Community.
+  Infineon Technologies AG acquired Cypress in April 2020 for approximately
+  9.4 billion dollars; the business, its developer community, and its GitHub
+  repositories have since been folded into Infineon. cypress.com now redirects
+  to infineon.com and the developer resources live at community.infineon.com.
+  Cypress shipped hardware SDKs and embedded toolchains rather than a public
+  web/REST API, so there is no independent HTTP API surface to catalog for this
+  entity — this profile documents it as a historical, acquired provider.
 url: https://raw.githubusercontent.com/api-evangelist/cypress/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +34,41 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Infineon Technologies AG
+x-acquired-date: '2020-04-16'
+x-successor: infineon
+x-industry: Semiconductors
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- Hardware
+- Microcontrollers
+- Embedded
+- Wireless
+- IoT
+- Memory
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/cypresssemiconductorco
+- type: Website
+  url: https://www.cypress.com/
+- type: Successor
+  url: https://www.infineon.com/cms/en/about-infineon/company/cypress/
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Cypress_Semiconductor
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

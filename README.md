@@ -64,6 +64,35 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cypress is a company surfaced as a portfolio company of mayfield and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: mayfield
+Cypress Semiconductor Corporation was a San Jose, California semiconductor company founded in 1982, and an early Mayfield venture investment. It designed and manufactured mixed-signal, embedded, and connectivity silicon — most notably the PSoC programmable system-on-chip microcontrollers, WICED Wi-Fi and Bluetooth wireless combos, USB controllers (EZ-USB), NOR flash and SRAM memory, and automotive Traveo microcontrollers — supported by the ModusToolbox and PSoC Creator developer tooling and the Cypress Developer Community. Infineon Technologies AG acquired Cypress in April 2020 for approximately 9.4 billion dollars; the business, its developer community, and its GitHub repositories have since been folded into Infineon. cypress.com now redirects to infineon.com and the developer resources live at community.infineon.com. Cypress shipped hardware SDKs and embedded toolchains rather than a public web/REST API, so there is no independent HTTP API surface to catalog for this entity — this profile documents it as a historical, acquired provider.
+
+**Areas:** Company · Semiconductors · Hardware · Microcontrollers · Embedded · Wireless · IoT · Memory · Acquired
+
+## Cypress on APIs.io (historical record)
+
+Everything profiled for Cypress is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cypress/](https://apis.io/providers/cypress/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cypress.com/)
+- [GitHub](https://github.com/cypresssemiconductorco)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cypress: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cypress/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
